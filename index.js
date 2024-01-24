@@ -9,10 +9,13 @@ handlebars.registerHelper({
   // Arguments: {address, city, subdivision, postalCode, countryCode}
   // formatAddress: (...args) => addressFormat(args).join(' '),
   formatAddress: (...args) => args.filter(arg => typeof arg !== 'object').join(' '),
-  formatDate: date => moment(date).format('MM/YYYY'),
+  formatDate: date => moment(date).format("MMM 'YY"),
   lowercase: s => s.toLowerCase(),
   eq: (a, b) => a === b,
+  extractDomain: url => new URL(url).hostname,
 });
+
+handlebars.registerHelper('toJSON', obj => JSON.stringify(obj, null, 4));
 
 function render(resume) {
   const dir = `${__dirname}/src`;
