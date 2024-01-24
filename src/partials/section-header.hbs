@@ -4,6 +4,9 @@
         {{#if website}}
             <a href="{{website}}" target="_blank">
                 {{name}}
+                {{#if details}}
+                    <span class="details">({{details}})</span>
+                {{/if}}
                 {{#if showWebsite }}
                     <span class="sublink">∙ <a href="{{website}}" target="_blank" class="sublink">{{website}}</a></span>
                 {{/if}}
