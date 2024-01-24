@@ -184,7 +184,7 @@ ul.minimal li {
 }
 
 ul.two-column {
-  -webkit-column-count: 2;
+  /* -webkit-column-count: 2; */
   -webkit-column-gap: 28px;
   column-count: 2;
   column-gap: 28px;
