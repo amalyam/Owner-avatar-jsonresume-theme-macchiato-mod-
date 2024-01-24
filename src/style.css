@@ -245,6 +245,12 @@ ul.two-column li {
   font-style: italic;
 }
 
+.section-header .details {
+  font-size: 70%;
+  font-weight: 200;
+  color: dimgray;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
