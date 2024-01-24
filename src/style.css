@@ -255,6 +255,10 @@ a:hover .sublink {
   color: #2895F1;
 }
 
+.section-header a:hover .details {
+  color: #2895F1;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
