@@ -251,6 +251,10 @@ ul.two-column li {
   color: dimgray;
 }
 
+a:hover .sublink {
+  color: #2895F1;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
