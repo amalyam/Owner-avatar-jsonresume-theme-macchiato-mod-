@@ -8,7 +8,7 @@
                     <span class="details">({{details}})</span>
                 {{/if}}
                 {{#if showWebsite }}
-                    <span class="sublink">∙ <a href="{{website}}" target="_blank" class="sublink">{{website}}</a></span>
+                    <span class="sublink">∙ {{extractDomain website}}</span>
                 {{/if}}
                 {{!-- <i class="fa fa-external-link" aria-hidden="true"></i> --}}
             </a>
